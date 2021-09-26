@@ -46,7 +46,7 @@ async def start(c, m, cb=False):
         ],[
         InlineKeyboardButton(f'ʜᴇʟᴘ', callback_data="help")
         ],[
-        InlineKeyboardButton(f' ᴄʟᴏsᴇ', callback_data="close")
+        InlineKeyboardButton(f'ᴄʟᴏsᴇ', callback_data="close")
        ],[
         InlineKeyboardButton(f'ᴏᴡɴᴇʀ', url=f'https://t.me/cat_of_tg')
     ]]
