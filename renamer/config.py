@@ -27,4 +27,4 @@ class Config:
         TRACE_CHANNEL = int(os.environ.get("TRACE_CHANNEL")) if os.environ.get("TRACE_CHANNEL", "") else None
     except:
         TRACE_CHANNEL = None
-        logger.warning("Trace channel id was invalid")
+        
